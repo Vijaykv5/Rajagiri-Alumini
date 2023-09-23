@@ -1,11 +1,14 @@
 import React from 'react'
 import ProfileCard from './components/Profilecard'
+import MainCard from './components/MainCard'
+import ProfileRightCard from './components/ProfileRightCard';
 
 const App = () => {
+  const randomNames = [ "Godwin Gino ", "  Gautham Sudheer", "Gayathri","Elvin Eldho", "Allwyin"];
   return (
 <div>
  
-<nav className="text-black p-4 flex items-center justify-between">
+<nav className="text-black p-4  flex items-center justify-between">
      
      <div className="flex items-center ">
        <a href='/'><img src="https://i.ibb.co/DfPV3LQ/Screenshot-2023-09-18-at-7-18-51-PM.png" alt="Logo" className="h-20 w-40" />
@@ -35,8 +38,17 @@ const App = () => {
      </ul>
      
    </nav>
-  <div className='bg-slate-300 h-screen  flex'>
+  <div className='bg-slate-200 h-fit flex'>
     <ProfileCard/>
+    <div className='flex flex-col'>
+    {randomNames.map((name, index) => (
+        <MainCard key={index} randomName={name} />
+      ))}
+
+    </div>
+    <ProfileRightCard/>
+    
+   
    
   </div>
 </div>
