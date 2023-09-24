@@ -1,14 +1,14 @@
 import React from 'react'
 import ProfileCard from './components/Profilecard'
 import MainCard from './components/MainCard'
-import ProfileRightCard from './components/ProfileRightCard';
+import ProfileRightCard, { Notifications } from './components/ProfileRightCard';
 
 const App = () => {
   const randomNames = [ "Godwin Gino ", "  Gautham Sudheer", "Gayathri","Elvin Eldho", "Allwyin"];
   return (
 <div>
  
-<nav className="text-black p-4  flex items-center justify-between">
+<nav className="text-black p-4  bg-white flex items-center justify-between sticky top-0 z-20">
      
      <div className="flex items-center ">
        <a href='/'><img src="https://i.ibb.co/DfPV3LQ/Screenshot-2023-09-18-at-7-18-51-PM.png" alt="Logo" className="h-20 w-40" />
@@ -47,6 +47,7 @@ const App = () => {
 
     </div>
     <ProfileRightCard/>
+   
     
    
    
