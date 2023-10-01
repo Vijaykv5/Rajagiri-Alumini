@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LinkedInProfile = () => {
+const profile1= () => {
   return (
     <div className="mt-8 rounded-lg text-white">
       {/* Cover Photo Section */}
@@ -127,4 +127,4 @@ const LinkedInProfile = () => {
   );
 };
 
-export default LinkedInProfile;
+export default profile1;

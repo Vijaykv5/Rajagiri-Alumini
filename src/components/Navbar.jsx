@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const navbar = () => {
   return (
     <nav className="text-black p-4 bg-white flex items-center justify-between sticky top-0 z-20">
       <div className="flex items-center ">
@@ -34,4 +34,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default navbar;

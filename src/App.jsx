@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import MainCard from './components/MainCard';
-import ProfileRightCard from './components/ProfileRightCard';
+import Navbar from './components/navbar';
+import MainCard from './components/mainCard';
+import ProfileRightCard from './components/profileRightCard';
 
 const App = () => {
   const randomNames = ["Godwin Gino", "Gautham Sudheer", "Gayathri", "Elvin Eldho", "Allwyin"];

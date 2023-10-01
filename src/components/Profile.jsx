@@ -1,7 +1,7 @@
 import React from 'react'
-import ProfileRightCard from './ProfileRightCard'
-import MainCard from './MainCard'
-import Navbar from './Navbar'
+import ProfileRightCard from './profileRightCard'
+import MainCard from './mainCard'
+import Navbar from './navbar'
 import Profile1 from './Profile1'
 
 
