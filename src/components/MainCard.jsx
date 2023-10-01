@@ -1,10 +1,10 @@
 import React from 'react';
 import { BsThreeDots } from 'react-icons/bs';
 
-const ProfileCard = ({ randomName }) => {
+const MainCard = ({ randomName }) => {
   return (
 
-        <div className="w-[100%] h-[70%] bg-gray-100 mx-1 mt-9 my-3 rounded-lg relative">
+        <div className="w-[100%] h-[70%]  mx-1  my-3 rounded-lg relative">
       <div className="relative">
         <img
           src="https://i.ibb.co/zf2NcWL/Group-3.png"
@@ -41,4 +41,4 @@ const ProfileCard = ({ randomName }) => {
   );
 };
 
-export default ProfileCard;
+export default MainCard;

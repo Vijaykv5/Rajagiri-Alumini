@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Notifications = () => {
   return (
-    <div className="w-[80%] h-fit bg-gray-100 flex flex-col pt-7 rounded-lg mx-12 my-9 ">
+    <div className="w-[80%] h-fit bg-white flex flex-col pt-7 rounded-lg mx-12 my-9 ">
       <h1 className="text-xl px-4">Notifications</h1>
       {/* Add more content for the right-side card here */}
       <div className="flex flex-col space-y-4 p-2">
@@ -70,7 +70,7 @@ const ProfileRightCard = () => {
 
   return (
     <div className="flex flex-col ">
-      <div className="w-[80%] h-fit bg-gray-100 flex flex-col pt-7 rounded-lg mx-12 my-9">
+      <div className="w-[80%] h-fit flex flex-col pt-7 rounded-lg mx-12 my-9">
         <h1 className="text-xl px-4">People also viewed</h1>
         <div className="flex flex-col space-y-4 p-2">
           {names.map((name, index) => (
