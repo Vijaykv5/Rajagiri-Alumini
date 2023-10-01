@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import ProfileCard from './components/ProfileCard';
 import MainCard from './components/MainCard';
 import ProfileRightCard from './components/ProfileRightCard';
 
