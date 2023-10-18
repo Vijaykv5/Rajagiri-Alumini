@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileRightCard from './profileRightCard'
+import ProfileRightCard from './ProfileRightCard'
 import MainCard from './mainCard'
 import Navbar from './Navbar'
 import Profile1 from './Profile1'

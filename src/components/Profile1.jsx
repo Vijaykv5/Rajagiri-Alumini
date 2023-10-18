@@ -116,10 +116,6 @@ const profile1= () => {
            </div>
           </div>
         </div>
-       
-
-
-
 
         </div>
       

@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <nav className="text-black p-4 bg-white flex items-center justify-between sticky top-0 z-20">
       <div className="flex items-center ">
@@ -22,7 +23,7 @@ const navbar = () => {
         <li className="hover:underline cursor-pointer">Home</li>
         <li className="hover:underline cursor-pointer">My Networks</li>
         <li className="hover:underline cursor-pointer">Jobs</li>
-        <li className="hover:underline cursor-pointer">Chats</li>
+        <Link to='/chat'><li className="hover:underline cursor-pointer">Chats</li></Link>
         <div className="flex items-center space-x-2 ml-auto">
           <a href='/profile'><div className="bg-white rounded-full flex items-center justify-center">
             <img src="https://i.ibb.co/68Vymy9/aeecc22a67dac7987a80ac0724658493.jpg" alt="User Icon" className="h-10 mx-3 -mt-2 rounded-lg w-10" />
@@ -34,4 +35,4 @@ const navbar = () => {
   );
 }
 
-export default navbar;
+export default Navbar;
